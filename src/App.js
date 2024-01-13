@@ -4,6 +4,6 @@ function App() {
   return <div>Higher-Order Component!</div>;
 }
 
-app = Hoc(App);
+App = Hoc(App);
 
 export default App;
